@@ -1,6 +1,6 @@
 {
   "name": "polygon.public.dappnode.eth",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "shortDescription": "Polygon PoS Client Full Node (Pruned)",
   "description": "Polygon is a protocol and a framework for building and connecting Ethereum-compatible blockchain networks. Aggregating scalable solutions on Ethereum supporting a multi-chain Ethereum ecosystem.",
   "type": "service",
@@ -17,9 +17,8 @@
   "keywords": [
     "polygon", "matic"
   ],
-  "globalEnvs": {
-    "all": true
-  },
+  "globalEnvs": [
+  ],
   "backup": [
   ],
   "exposable": [
